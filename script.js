@@ -5,7 +5,8 @@ gsap.to("#box1", {
     rotate: 360,
     backgroundColor: "rgb(28, 158, 202)",
     borderRadius: "50%",
-    repeat:1
+    repeat:-1,
+    yoyo:true
 });
 
 gsap.from("#box2", {
@@ -15,7 +16,8 @@ gsap.from("#box2", {
     rotate: 360,
     backgroundColor: "#da55da",
     borderRadius: "50%",
-    repeat:1
+    repeat:-1,
+    yoyo:true
 });
 
 gsap.from("h1", {
@@ -24,5 +26,6 @@ gsap.from("h1", {
     y: 30,
     delay: 1,
     stagger: 1,// Built-in GSAP stagger (1 sec delay between each h1)
-    repeat:1
+    repeat:-1,
+    yoyo:true
 });
