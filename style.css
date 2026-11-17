@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  color:white;
+}
+body {
+  background-color: #111;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#box1{
+    height:300px;
+    width:300px;
+    background-color: #da55da;
+
+}
+#box2{
+    height:300px;
+    width:300px;
+    background-color: rgb(28, 158, 202);
+}
