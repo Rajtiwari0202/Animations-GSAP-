@@ -16,11 +16,16 @@ body {
 #box1{
     height:300px;
     width:300px;
-    background-color: #da55da;
+    background-color: crimson;
 
 }
 #box2{
     height:300px;
     width:300px;
-    background-color: rgb(28, 158, 202);
+    background-color: lightseagreen;
+}
+#box3{
+    height:300px;
+    width:300px;
+    background-color: royalblue;
 }
