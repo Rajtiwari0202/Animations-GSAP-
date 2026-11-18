@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
-  color:white;
+  color: white;
 }
 body {
   background-color: #111;
@@ -13,7 +13,7 @@ body {
   height: 100%;
   width: 100%;
 }
-#box1{
+/* #box1{
     height:300px;
     width:300px;
     background-color: crimson;
@@ -28,4 +28,24 @@ body {
     height:300px;
     width:300px;
     background-color: royalblue;
+} */
+
+#nav {
+    /* background-color: crimson; */
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:30px 50px;
+}
+#part{
+    display: flex;
+    gap:50px;
+}
+
+h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
 }
