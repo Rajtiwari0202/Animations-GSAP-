@@ -1,42 +1,45 @@
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 html,
-body{
-    height: 100%;
-    width:100%;
-    background-color: #111;
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
 }
+
 #page1{
     height:100%;
-    width:100%;
-    background-color: rgb(46, 137, 167);
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    background-color: black;
 }
-#page2{
-    height:100%;
-    width:100%;
-    background-color:rgb(28, 136, 173);
-    display:flex;
-    justify-content: center;
-    align-items: center;
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(82, 162, 189);
+  display: flex;
+  align-items: center; /* Vertically centers the 30vw text */
+  padding-left: 5vw; /* Gives the first letter breathing room on the left */
 }
-#page3{
-    height:100%;
-    width:100%;
-    background-color:rgb(6, 131, 173);
-    display:flex;
-    justify-content: center;
-    align-items: center;
+
+#page2 h1 {
+  font-size: 30vw;
+  text-transform: uppercase;
+  white-space: nowrap;
+  line-height: 1; /* Removes extra top/bottom font spacing for true centering */
 }
-#box{
-    height:300px;
-    width:300px;
-    background-color: crimson;
-    
+
+
+body{
+    overflow-x: hidden;
+}
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
 }
